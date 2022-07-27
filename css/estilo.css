@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gulzar', serif;
+}
+
+header{
+ background-color: #a9def9;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+}
+h1{
+    display: flex;
+    padding: 50px ;
+    font-size: 50px;
+
+}
+body{
+    background-color: #ffcbf2;
+}
+.imagenLogo {
+   width: 15%;
+   margin-left: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.menuInicio{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  margin-left: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+  
+}
+ul{
+    display: flex;
+}
+ul li{
+ 
+    list-style-type: none;
+    margin-left: 10px;
+}
+ul li a:hover{
+    color: #CDB4DB;
+}
+footer{
+    text-align: center;
+    background-color: #a9def9;
+}
+.flexCambio{
+    display: flex;
+    
+}
+.fotoDos{
+    height: 40%;
+    width: 100%;
+    position: relative;
+
+}
+.fotoUno{
+    height: 40%;
+    width: 100%;
+    position: relative;
+
+}
+.fotoTres{
+    height: 40%;
+    width: 100%;
+    position: relative;
+}
+.fotosMuestra{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+   
+}
+.fotosMuestraDos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.fotosMuestraTres{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.fotosMuestraCuatro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+div img{
+    width: 90px;
+    transition: height 0.5s width 0.8s; 
+}
+.flexCambio img:hover{
+        height: 220px;
+        width: 190px;
+ 
+}
+
+.flexCambio div{
+    display: flex;
+    justify-content: center;
+
+    
+}
+.formularioInicio {
+    width: 330px;
+    height: 330px;
+    border: 2px solid #da13a8;
+}
+
+.animacionInicio{
+    font-size: 45px;
+}
